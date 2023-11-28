@@ -1,0 +1,145 @@
+a:hover{
+    text-decoration: none;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#header{
+    background-color:#e97467;
+    color: black;
+
+    
+}
+#logo{
+   
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    
+    background: linear-gradient(0deg, rgba(39, 37, 37, 0.2), rgba(104, 91, 91, 0.2)), linear-gradient(92.59deg, #e04d1c 6.86%, rgba(216, 99, 60, 0.365) 134.96%, rgba(216, 91, 49, 0) 134.98%, rgba(43, 14, 4, 0.365) 134.98%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-emphasis-color: transparent;
+}
+
+#menue{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+#menue li{
+    display: inline-block;
+   
+}
+#menue li a{
+   
+    color:#7e1408;
+    padding: 15px 10px;
+    display: block;
+  
+}
+#menue li a:hover{
+    background-color: #d42e1b;
+}
+.btn-group{
+    padding: 10px;
+}
+ /* #section-1{
+    background-color: #1abc9c;
+}
+#section-2{
+    background-color: #1abc9c;
+}  */
+.paragraph{
+    padding:30px;
+    margin: 5px;
+    color:black ;
+}
+.text{
+    color:#e74c3c; 
+    font-size: 1.3rem;
+}
+.image{
+    padding-top: 20px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.box{
+    background-size: cover;
+    padding: 50px 0;
+    position: relative;
+ 
+}
+.box img{
+    max-width: 100%;
+    margin-bottom: 10px;
+    height:  300px;
+}
+
+.box h3{
+    padding-top: 20px;
+   
+}
+
+.service{
+    padding-bottom: 40px;
+    color: #7e1408;
+   font-size: 2rem;
+}
+.team{
+    padding: 20px;
+   color: #7e1408;
+   font-size: 2rem;
+}
+.team-member{
+padding: 30px;
+}
+.team-member img{
+    max-width: 100%;
+    border-radius: 50%;
+}
+
+team-member h3{
+    font-size: 1.3rem;
+}
+.btn-group{
+    float: right;
+    
+}
+@media(max-width: 768px){
+    #logo{
+       text-align: center;
+       margin: 10px 0;
+    }
+#menue{
+    text-align: center;
+}
+.service{
+    text-align: center;
+}
+.box{
+    text-align: center;
+    margin: 10px 0;
+}
+.team{
+    text-align: center;
+}
+
+.team-member{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.member-pic{
+    width: 50%;
+    height: 200px;
+}
+}
+
+
